@@ -1,0 +1,100 @@
+{
+  "_from": "redux-persist@4.6.0",
+  "_id": "redux-persist@4.6.0",
+  "_inBundle": false,
+  "_integrity": "sha1-OZR5PV8vOL8CWRyeaT4Wv46uJyg=",
+  "_location": "/redux-persist",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "redux-persist@4.6.0",
+    "name": "redux-persist",
+    "escapedName": "redux-persist",
+    "rawSpec": "4.6.0",
+    "saveSpec": null,
+    "fetchSpec": "4.6.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/redux-persist/-/redux-persist-4.6.0.tgz",
+  "_shasum": "3994793d5f2f38bf02591c9e693e16bf8eae2728",
+  "_spec": "redux-persist@4.6.0",
+  "_where": "C:\\_LessThan3\\Encorp\\enc-new-handheld",
+  "author": {
+    "name": "rt2zz",
+    "email": "zack@root-two.com"
+  },
+  "ava": {
+    "require": [
+      "babel-register",
+      "babel-polyfill"
+    ],
+    "babel": "inherit"
+  },
+  "bugs": {
+    "url": "https://github.com/rt2zz/redux-persist/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.17.4",
+    "lodash-es": "^4.17.4"
+  },
+  "deprecated": false,
+  "description": "persist and rehydrate redux stores",
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "cross-env": "^3.1.4",
+    "immutable": "^3.8.1",
+    "lodash-webpack-plugin": "^0.11.0",
+    "redux": "^3.6.0",
+    "rimraf": "~2.5.4",
+    "standard": "^8.6.0",
+    "webpack": "^2.2.1"
+  },
+  "files": [
+    "es",
+    "dist",
+    "lib",
+    "src",
+    "constants.js",
+    "storages.js",
+    "index.js.flow",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/rt2zz/redux-persist",
+  "jsnext:main": "es/index.js",
+  "keywords": [
+    "redux",
+    "redux-middleware",
+    "localstorage",
+    "redux-persist",
+    "redux-storage",
+    "redux-rehydrate"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "name": "redux-persist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rt2zz/redux-persist.git"
+  },
+  "scripts": {
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.6.0"
+}
