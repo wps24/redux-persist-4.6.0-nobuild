@@ -47,7 +47,7 @@ function logPreRehydrate (preRehydrateActions) {
 
 function defaultStateReconciler (state, inboundState, reducedState, log) {
   let newState = {...reducedState}
-
+  if (typeof inboundState !== 'object') return newState;
   Object.keys(inboundState).forEach((key) => {
     // if initialState does not have key, skip auto rehydration
     if (!state.hasOwnProperty(key)) return

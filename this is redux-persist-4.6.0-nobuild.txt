@@ -1,0 +1,1 @@
+wps24/redux-persist-4.6.0-nobuild

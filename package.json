@@ -1,27 +1,25 @@
 {
-  "_from": "redux-persist@4.6.0",
+  "_from": "github:wps24/redux-persist-4.6.0-nobuild",
   "_id": "redux-persist@4.6.0",
   "_inBundle": false,
-  "_integrity": "sha1-OZR5PV8vOL8CWRyeaT4Wv46uJyg=",
+  "_integrity": "",
   "_location": "/redux-persist",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "redux-persist@4.6.0",
-    "name": "redux-persist",
-    "escapedName": "redux-persist",
-    "rawSpec": "4.6.0",
-    "saveSpec": null,
-    "fetchSpec": "4.6.0"
+    "type": "git",
+    "raw": "wps24/redux-persist-4.6.0-nobuild",
+    "rawSpec": "wps24/redux-persist-4.6.0-nobuild",
+    "saveSpec": "github:wps24/redux-persist-4.6.0-nobuild",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-persist/-/redux-persist-4.6.0.tgz",
+  "_resolved": "github:wps24/redux-persist-4.6.0-nobuild#ca4efea386c9e0e56530f6d05b6af49101792e1d",
   "_shasum": "3994793d5f2f38bf02591c9e693e16bf8eae2728",
-  "_spec": "redux-persist@4.6.0",
+  "_spec": "wps24/redux-persist-4.6.0-nobuild",
   "_where": "C:\\_LessThan3\\Encorp\\enc-new-handheld",
   "author": {
     "name": "rt2zz",
@@ -90,8 +88,7 @@
     "type": "git",
     "url": "git+https://github.com/rt2zz/redux-persist.git"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "standard": {
     "parser": "babel-eslint"
   },
